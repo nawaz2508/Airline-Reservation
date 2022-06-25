@@ -1,0 +1,12 @@
+import java.util.ArrayList;
+
+public class UserRunner {
+
+	private static List<Customer> customers = new ArrayList<Customer>();
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

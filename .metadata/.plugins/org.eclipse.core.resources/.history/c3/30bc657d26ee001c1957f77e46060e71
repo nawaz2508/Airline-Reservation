@@ -1,0 +1,19 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class UserRunner {
+
+	private static List<Customer> customers = new ArrayList<Customer>();
+	
+	public static void main(String[] args) {
+		
+		Customer c1 = new Customer();
+		
+		System.out.println("Press 1 to add new customer");
+		System.out.println("Press 2 to search new customer");
+		System.out.println("Press 3 to delete customer");
+		System.out.println("Press 4 to display all customer");
+
+	}
+
+}

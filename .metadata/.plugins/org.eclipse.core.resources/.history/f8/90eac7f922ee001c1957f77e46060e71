@@ -1,0 +1,35 @@
+import java.util.ArrayList;
+
+public class Customer {
+	
+	private String id;
+	private String email;
+	private String name;
+	private String contact;
+	private String address;
+	private int age;
+	private String gender;
+	private String password;
+	
+	public List<Integer> numofTickets;
+	public List<Flight> flightRegistered;
+	
+	
+	public Customer(String id, String email, String name, String contact, String address, int age, String gender,
+			String password, List<Integer> numofTickets, List<Flight> flightRegistered) {
+		super();
+		this.id = id;
+		this.email = email;
+		this.name = name;
+		this.contact = contact;
+		this.address = address;
+		this.age = age;
+		this.gender = gender;
+		this.password = password;
+		this.numofTickets = new ArrayList<>();
+		this.flightRegistered = new ArrayList<>();
+	}
+	
+	
+	
+}
